@@ -87,6 +87,7 @@ public class MainActivity extends Activity {
                     })
                     .show();
         } else if (packages.size() == 1) {
+            finish();
             invokeApplication(packages.get(0), resInfos.get(0), data);
         }
     }
